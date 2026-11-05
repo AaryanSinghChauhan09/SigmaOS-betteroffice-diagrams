@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_betteroffice_diagrams"
+version = "0.1.0"
+edition = "2021"
+description = "Vector-based diagramming engine supporting flowcharts, UML, and entity relationships"
+
+[lib]
+name = "sigmaos_betteroffice_diagrams"
+path = "src/lib.rs"
