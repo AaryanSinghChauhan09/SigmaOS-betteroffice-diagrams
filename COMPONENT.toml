@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-betteroffice-diagrams"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "BetterOffice diagrams integration — flowcharts, ER, UML, and sequence diagrams"
+upstream = []
+
+[contract]
+provides = ["diagram-authoring"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Mermaid/PlantUML rendering pipeline"
