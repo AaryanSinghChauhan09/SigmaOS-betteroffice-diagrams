@@ -67,3 +67,6 @@ mod tests {
         assert_eq!(graph.edges.len(), 1);
     }
 }
+
+/// Alternate diagram domain model preserved from the legacy scaffold branch.
+pub mod diagram_model;
