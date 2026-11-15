@@ -37,7 +37,12 @@ impl DiagramGraph {
         });
     }
 
-    pub fn add_edge(&mut self, from: impl Into<String>, to: impl Into<String>, edge_type: impl Into<String>) {
+    pub fn add_edge(
+        &mut self,
+        from: impl Into<String>,
+        to: impl Into<String>,
+        edge_type: impl Into<String>,
+    ) {
         self.edges.push(DiagramEdge {
             from_id: from.into(),
             to_id: to.into(),
