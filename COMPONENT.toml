@@ -3,7 +3,7 @@ name = "SigmaOS-betteroffice-diagrams"
 tier = 3
 stability = "stable"
 language = "rust"
-description = "Vector-based diagramming engine supporting flowcharts, UML, and entity relationships"
+description = "No GitHub description is set; component scope remains unclassified."
 upstream = []
 
 [contract]
